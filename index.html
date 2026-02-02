@@ -29,8 +29,12 @@
 <body>
 
     <header>
-        <h1>💵 Curs Valutar Moldova</h1>
-        <p>Calculator rapid și simplu pentru toate valutele</p>
+        <div class="lang-switch">
+            <button class="lang-btn active" data-lang="ro">RO</button>
+            <button class="lang-btn" data-lang="ru">RU</button>
+        </div>
+        <h1 data-i18n="title">💵 Curs Valutar Moldova</h1>
+        <p data-i18n="subtitle">Calculator rapid și simplu pentru toate valutele</p>
     </header>
 
     <main class="container">
@@ -44,15 +48,15 @@
 
         <!-- Tabs Navigation -->
         <div class="tabs-nav">
-            <button class="tab-btn active" data-tab="calculator-tab">🧮 Calculator</button>
-            <button class="tab-btn" data-tab="comparison-tab">📊 Tabel Comparativ</button>
+            <button class="tab-btn active" data-tab="calculator-tab" data-i18n="tab_calculator">🧮 Calculator</button>
+            <button class="tab-btn" data-tab="comparison-tab" data-i18n="tab_comparison">📊 Tabel Comparativ</button>
         </div>
 
         <!-- Calculator Tab -->
         <div id="calculator-tab" class="tab-content active">
             <div class="converter-card">
                 <div class="input-group">
-                    <label for="bank-selector">Bank / Sursă</label>
+                    <label for="bank-selector" data-i18n="label_bank">Bank / Sursă</label>
                 <select id="bank-selector">
                     <option value="bnm">BNM - Banca Națională</option>
                     <!-- Commercial banks will be added dynamically if available -->
@@ -60,28 +64,22 @@
                 
                 <div id="transaction-type-container" style="display:none; margin-top: 10px;">
                      <div class="toggle-container">
-                        <button id="btn-buy" class="toggle-btn active">Cumpăr (Buy)</button>
-                        <button id="btn-sell" class="toggle-btn">Vând (Sell)</button>
+                        <button id="btn-buy" class="toggle-btn active" data-i18n="btn_buy">Cumpăr</button>
+                        <button id="btn-sell" class="toggle-btn" data-i18n="btn_sell">Vând</button>
                      </div>
                 </div>
             </div>
 
             <div class="input-group">
-                <label for="amount">Sumă</label>
+                <label for="amount" data-i18n="label_amount">Sumă</label>
                 <input type="number" id="amount" value="100" placeholder="0.00">
             </div>
 
             <div class="currency-row">
                 <div class="currency-select">
-                    <label for="from-currency">Din</label>
+                    <label for="from-currency" data-i18n="label_from">Din</label>
                     <select id="from-currency">
-                        <option value="mdl">MDL - Leu Moldovenesc</option>
-                        <option value="eur" selected>EUR - Euro</option>
-                        <option value="usd">USD - Dolar SUA</option>
-                        <option value="ron">RON - Leu Românesc</option>
-                        <option value="rub">RUB - Rubla Rusească</option>
-                        <option value="gbp">GBP - Lira Sterlină</option>
-                        <option value="uah">UAH - Hrivna Ucraineană</option>
+                        <!-- Options generated in JS -->
                     </select>
                 </div>
 
@@ -90,21 +88,15 @@
                 </button>
 
                 <div class="currency-select">
-                    <label for="to-currency">În</label>
+                    <label for="to-currency" data-i18n="label_to">În</label>
                     <select id="to-currency">
-                        <option value="mdl" selected>MDL - Leu Moldovenesc</option>
-                        <option value="eur">EUR - Euro</option>
-                        <option value="usd">USD - Dolar SUA</option>
-                        <option value="ron">RON - Leu Românesc</option>
-                        <option value="rub">RUB - Rubla Rusească</option>
-                        <option value="gbp">GBP - Lira Sterlină</option>
-                        <option value="uah">UAH - Hrivna Ucraineană</option>
+                        <!-- Options generated in JS -->
                     </select>
                 </div>
             </div>
 
             <div class="result-area">
-                <div class="result-label">Rezultat:</div>
+                <div class="result-label" data-i18n="label_result">Rezultat:</div>
                 <div class="result-wrapper">
                     <div class="result-value" id="result-value">Loading...</div>
                     <button id="copy-result-btn" title="Copiază rezultatul" aria-label="Copiază rezultatul">
@@ -117,15 +109,15 @@
                 <div class="exchange-rate-info" id="rate-info"></div>
                 <div class="update-time" id="last-updated">Actualizare...</div>
                 
-                <button id="save-history-btn" class="secondary-btn">
+                <button id="save-history-btn" class="secondary-btn" data-i18n="btn_add_history">
                     + Adaugă în istoric
                 </button>
             </div>
             
             <div id="history-section" style="display: none;">
                 <div class="history-header">
-                    <h3>Istoric Recente</h3>
-                    <button id="clear-history-btn" class="link-btn">Șterge tot</button>
+                    <h3 data-i18n="header_history">Istoric Recente</h3>
+                    <button id="clear-history-btn" class="link-btn" data-i18n="btn_clear_history">Șterge tot</button>
                 </div>
                 <ul id="history-list">
                     <!-- History items will appear here -->
@@ -133,14 +125,14 @@
             </div>
 
             <div id="rates-table-container" style="margin-top: 2rem; display: none;">
-                <h3 style="margin-bottom: 1rem; font-size: 1.1rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">Cursuri Valutare Disponibile</h3>
+                <h3 style="margin-bottom: 1rem; font-size: 1.1rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;" data-i18n="header_available_rates">Cursuri Valutare Disponibile</h3>
                 <div class="table-responsive">
                     <table class="rates-table">
                         <thead>
                             <tr>
-                                <th>Valuta</th>
-                                <th>Cumpărare</th>
-                                <th>Vânzare</th>
+                                <th data-i18n="col_currency">Valuta</th>
+                                <th data-i18n="col_buy">Cumpărare</th>
+                                <th data-i18n="col_sell">Vânzare</th>
                             </tr>
                         </thead>
                         <tbody id="rates-table-body">
@@ -157,9 +149,9 @@
         <div id="comparison-tab" class="tab-content" style="display: none;">
             <div class="converter-card full-width">
                 <div class="comparison-header">
-                    <h3>Comparare Cursuri Bănci</h3>
+                    <h3 data-i18n="header_comparison">Comparare Cursuri Bănci</h3>
                     <div class="dynamic-col-selector">
-                        <label for="comp-currency-select">A 4-a valută:</label>
+                        <label for="comp-currency-select" data-i18n="label_4th_currency">A 4-a valută:</label>
                         <select id="comp-currency-select">
                             <!-- Populated via JS -->
                         </select>
@@ -170,21 +162,21 @@
                     <table class="rates-table comparison-table" id="comparison-table">
                         <thead>
                             <tr class="main-header">
-                                <th rowspan="2">Banca</th>
+                                <th rowspan="2" data-i18n="col_bank" data-sort-key="name">Banca</th>
                                 <th colspan="2" class="col-eur">EUR</th>
                                 <th colspan="2" class="col-usd">USD</th>
                                 <th colspan="2" class="col-gbp">GBP</th>
                                 <th colspan="2" class="col-dynamic" id="dynamic-header-label">RON</th>
                             </tr>
                             <tr class="sub-header">
-                                <th class="col-eur">Cump</th>
-                                <th class="col-eur">Vânz</th>
-                                <th class="col-usd">Cump</th>
-                                <th class="col-usd">Vânz</th>
-                                <th class="col-gbp">Cump</th>
-                                <th class="col-gbp">Vânz</th>
-                                <th class="col-dynamic">Cump</th>
-                                <th class="col-dynamic">Vânz</th>
+                                <th class="col-eur" data-i18n="col_buy_short" data-sort-key="eur" data-sort-type="buy">Cump</th>
+                                <th class="col-eur" data-i18n="col_sell_short" data-sort-key="eur" data-sort-type="sell">Vânz</th>
+                                <th class="col-usd" data-i18n="col_buy_short" data-sort-key="usd" data-sort-type="buy">Cump</th>
+                                <th class="col-usd" data-i18n="col_sell_short" data-sort-key="usd" data-sort-type="sell">Vânz</th>
+                                <th class="col-gbp" data-i18n="col_buy_short" data-sort-key="gbp" data-sort-type="buy">Cump</th>
+                                <th class="col-gbp" data-i18n="col_sell_short" data-sort-key="gbp" data-sort-type="sell">Vânz</th>
+                                <th class="col-dynamic" data-i18n="col_buy_short" data-sort-key="dynamic" data-sort-type="buy">Cump</th>
+                                <th class="col-dynamic" data-i18n="col_sell_short" data-sort-key="dynamic" data-sort-type="sell">Vânz</th>
                             </tr>
                         </thead>
                         <tbody id="comparison-table-body">
@@ -193,7 +185,7 @@
                     </table>
                 </div>
                 <div class="legend">
-                    <span class="dot green"></span> Cel mai bun curs
+                    <span class="dot green"></span> <span data-i18n="legend_best_rate">Cel mai bun curs</span>
                 </div>
             </div>
         </div>
