@@ -661,3 +661,25 @@ header {
     color: var(--primary-color);
 }
 
+
+.copy-hist-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 5px;
+    padding: 0;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+.copy-hist-btn:hover {
+    opacity: 1;
+}
+
+
+.history-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adds space between buttons */
+}
+
