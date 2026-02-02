@@ -210,3 +210,129 @@ footer {
         transform: rotate(270deg);
     }
 }
+/* New Features Styles */
+
+.result-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+#result-value {
+    margin-bottom: 0; /* Reset previous margin */
+}
+
+#copy-result-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #95a5a6;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#copy-result-btn:hover {
+    color: var(--accent-color);
+    background-color: rgba(39, 174, 96, 0.1);
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    transition: all 0.2s;
+}
+
+.secondary-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* History Section */
+#history-section {
+    margin-top: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.history-header h3 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+#history-list {
+    list-style: none;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.95rem;
+}
+
+.history-item:last-child {
+    border-bottom: none;
+}
+
+.history-details {
+    flex: 1;
+}
+
+.history-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.history-copy-btn, .history-del-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 4px;
+    color: #95a5a6;
+}
+
+.history-copy-btn:hover {
+    color: var(--accent-color);
+    background-color: rgba(39, 174, 96, 0.1);
+}
+
+.history-del-btn:hover {
+    color: #e74c3c;
+    background-color: rgba(231, 76, 60, 0.1);
+}
+

@@ -82,9 +82,31 @@
 
             <div class="result-area">
                 <div class="result-label">Rezultat:</div>
-                <div class="result-value" id="result-value">Loading...</div>
+                <div class="result-wrapper">
+                    <div class="result-value" id="result-value">Loading...</div>
+                    <button id="copy-result-btn" title="Copiază rezultatul" aria-label="Copiază rezultatul">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                    </button>
+                </div>
                 <div class="exchange-rate-info" id="rate-info"></div>
                 <div class="update-time" id="last-updated">Actualizare...</div>
+                
+                <button id="save-history-btn" class="secondary-btn">
+                    + Adaugă în istoric
+                </button>
+            </div>
+            
+            <div id="history-section" style="display: none;">
+                <div class="history-header">
+                    <h3>Istoric Recente</h3>
+                    <button id="clear-history-btn" class="link-btn">Șterge tot</button>
+                </div>
+                <ul id="history-list">
+                    <!-- History items will appear here -->
+                </ul>
             </div>
         </div>
 
