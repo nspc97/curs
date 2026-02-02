@@ -42,7 +42,30 @@
             </div>
         </div>
 
-        <div class="converter-card">
+        <!-- Tabs Navigation -->
+        <div class="tabs-nav">
+            <button class="tab-btn active" data-tab="calculator-tab">🧮 Calculator</button>
+            <button class="tab-btn" data-tab="comparison-tab">📊 Tabel Comparativ</button>
+        </div>
+
+        <!-- Calculator Tab -->
+        <div id="calculator-tab" class="tab-content active">
+            <div class="converter-card">
+                <div class="input-group">
+                    <label for="bank-selector">Bank / Sursă</label>
+                <select id="bank-selector">
+                    <option value="bnm">BNM - Banca Națională</option>
+                    <!-- Commercial banks will be added dynamically if available -->
+                </select>
+                
+                <div id="transaction-type-container" style="display:none; margin-top: 10px;">
+                     <div class="toggle-container">
+                        <button id="btn-buy" class="toggle-btn active">Cumpăr (Buy)</button>
+                        <button id="btn-sell" class="toggle-btn">Vând (Sell)</button>
+                     </div>
+                </div>
+            </div>
+
             <div class="input-group">
                 <label for="amount">Sumă</label>
                 <input type="number" id="amount" value="100" placeholder="0.00">
@@ -107,6 +130,71 @@
                 <ul id="history-list">
                     <!-- History items will appear here -->
                 </ul>
+            </div>
+
+            <div id="rates-table-container" style="margin-top: 2rem; display: none;">
+                <h3 style="margin-bottom: 1rem; font-size: 1.1rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">Cursuri Valutare Disponibile</h3>
+                <div class="table-responsive">
+                    <table class="rates-table">
+                        <thead>
+                            <tr>
+                                <th>Valuta</th>
+                                <th>Cumpărare</th>
+                                <th>Vânzare</th>
+                            </tr>
+                        </thead>
+                        <tbody id="rates-table-body">
+                            <!-- Rows -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div> <!-- End of calculator-tab converter-card -->
+        </div> <!-- End of calculator-tab -->
+
+        <!-- Comparison Tab -->
+        <div id="comparison-tab" class="tab-content" style="display: none;">
+            <div class="converter-card full-width">
+                <div class="comparison-header">
+                    <h3>Comparare Cursuri Bănci</h3>
+                    <div class="dynamic-col-selector">
+                        <label for="comp-currency-select">A 4-a valută:</label>
+                        <select id="comp-currency-select">
+                            <!-- Populated via JS -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="rates-table comparison-table" id="comparison-table">
+                        <thead>
+                            <tr class="main-header">
+                                <th rowspan="2">Banca</th>
+                                <th colspan="2" class="col-eur">EUR</th>
+                                <th colspan="2" class="col-usd">USD</th>
+                                <th colspan="2" class="col-gbp">GBP</th>
+                                <th colspan="2" class="col-dynamic" id="dynamic-header-label">RON</th>
+                            </tr>
+                            <tr class="sub-header">
+                                <th class="col-eur">Cump</th>
+                                <th class="col-eur">Vânz</th>
+                                <th class="col-usd">Cump</th>
+                                <th class="col-usd">Vânz</th>
+                                <th class="col-gbp">Cump</th>
+                                <th class="col-gbp">Vânz</th>
+                                <th class="col-dynamic">Cump</th>
+                                <th class="col-dynamic">Vânz</th>
+                            </tr>
+                        </thead>
+                        <tbody id="comparison-table-body">
+                            <!-- Rows -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="legend">
+                    <span class="dot green"></span> Cel mai bun curs
+                </div>
             </div>
         </div>
 

@@ -1,47 +1,293 @@
 {
     "date": "02.02.2026",
-    "source": "Banca Națională a Moldovei",
-    "rates": {
-        "mdl": 1.0,
-        "eur": 20.1204,
-        "usd": 16.8414,
-        "rub": 0.2223,
-        "ron": 3.9486,
-        "uah": 0.3932,
-        "aed": 4.5853,
-        "all": 0.20803,
-        "amd": 0.044469999999999996,
-        "aud": 11.8243,
-        "azn": 9.9042,
-        "byn": 5.965,
-        "cad": 12.4677,
-        "chf": 21.9487,
-        "cny": 2.4233,
-        "czk": 0.827,
-        "dkk": 2.6945,
-        "gbp": 23.2024,
-        "gel": 6.26,
-        "hkd": 2.157,
-        "huf": 0.052828,
-        "ils": 5.4606,
-        "inr": 0.18309,
-        "isk": 0.13876,
-        "jpy": 0.109427,
-        "kgs": 0.19258999999999998,
-        "krw": 0.011709,
-        "kwd": 54.9063,
-        "kzt": 0.033460000000000004,
-        "mkd": 0.32664,
-        "myr": 4.2688,
-        "nok": 1.7647,
-        "nzd": 10.2243,
-        "pln": 4.7829,
-        "rsd": 0.170915,
-        "sek": 1.9118,
-        "tjs": 1.8085,
-        "tmt": 4.81,
-        "try": 0.3868,
-        "uzs": 0.001379,
-        "xdr": 23.2755
+    "timestamp": 1770059505569,
+    "sources": {
+        "bnm": {
+            "name": "Banca Națională (BNM)",
+            "type": "official",
+            "rates": {
+                "mdl": 1.0,
+                "eur": 20.1204,
+                "usd": 16.8414,
+                "rub": 0.2223,
+                "ron": 3.9486,
+                "uah": 0.3932,
+                "aed": 4.5853,
+                "all": 0.20803,
+                "amd": 0.044469999999999996,
+                "aud": 11.8243,
+                "azn": 9.9042,
+                "byn": 5.965,
+                "cad": 12.4677,
+                "chf": 21.9487,
+                "cny": 2.4233,
+                "czk": 0.827,
+                "dkk": 2.6945,
+                "gbp": 23.2024,
+                "gel": 6.26,
+                "hkd": 2.157,
+                "huf": 0.052828,
+                "ils": 5.4606,
+                "inr": 0.18309,
+                "isk": 0.13876,
+                "jpy": 0.109427,
+                "kgs": 0.19258999999999998,
+                "krw": 0.011709,
+                "kwd": 54.9063,
+                "kzt": 0.033460000000000004,
+                "mkd": 0.32664,
+                "myr": 4.2688,
+                "nok": 1.7647,
+                "nzd": 10.2243,
+                "pln": 4.7829,
+                "rsd": 0.170915,
+                "sek": 1.9118,
+                "tjs": 1.8085,
+                "tmt": 4.81,
+                "try": 0.3868,
+                "uzs": 0.001379,
+                "xdr": 23.2755
+            }
+        },
+        "micb": {
+            "name": "Moldindconbank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.9,
+                    "sell": 20.21
+                },
+                "usd": {
+                    "buy": 16.7,
+                    "sell": 17.08
+                },
+                "gbp": {
+                    "buy": 22.5,
+                    "sell": 23.3
+                },
+                "ron": {
+                    "buy": 3.84,
+                    "sell": 3.96
+                },
+                "chf": {
+                    "buy": 21.4,
+                    "sell": 22.0
+                }
+            }
+        },
+        "otp": {
+            "name": "OTP Bank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.94,
+                    "sell": 20.21
+                },
+                "usd": {
+                    "buy": 16.74,
+                    "sell": 17.09
+                },
+                "gbp": {
+                    "buy": 22.96,
+                    "sell": 23.5
+                },
+                "ron": {
+                    "buy": 0.0,
+                    "sell": 0.0
+                },
+                "uah": {
+                    "buy": 0.36,
+                    "sell": 0.42
+                },
+                "rub": {
+                    "buy": 0.0,
+                    "sell": 0.0
+                }
+            }
+        },
+        "exim": {
+            "name": "Eximbank",
+            "type": "commercial",
+            "rates": {
+                "usd": {
+                    "buy": 16.78,
+                    "sell": 17.04
+                },
+                "eur": {
+                    "buy": 19.96,
+                    "sell": 20.18
+                },
+                "ron": {
+                    "buy": 3.84,
+                    "sell": 3.96
+                },
+                "gbp": {
+                    "buy": 22.85,
+                    "sell": 23.35
+                }
+            }
+        },
+        "fincom": {
+            "name": "FinComBank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.94,
+                    "sell": 20.17
+                },
+                "usd": {
+                    "buy": 16.78,
+                    "sell": 17.03
+                },
+                "gbp": {
+                    "buy": 22.95,
+                    "sell": 23.25
+                },
+                "ron": {
+                    "buy": 3.85,
+                    "sell": 3.95
+                }
+            }
+        },
+        "maib": {
+            "name": "MAIB",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.92,
+                    "sell": 20.22
+                },
+                "usd": {
+                    "buy": 16.74,
+                    "sell": 17.08
+                },
+                "gbp": {
+                    "buy": 22.95,
+                    "sell": 23.35
+                },
+                "ron": {
+                    "buy": 3.85,
+                    "sell": 3.97
+                },
+                "uah": {
+                    "buy": 0.34,
+                    "sell": 0.41
+                },
+                "chf": {
+                    "buy": 21.6,
+                    "sell": 22.1
+                }
+            }
+        },
+        "victoria": {
+            "name": "Victoriabank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.95,
+                    "sell": 20.25
+                },
+                "usd": {
+                    "buy": 16.7,
+                    "sell": 17.12
+                },
+                "gbp": {
+                    "buy": 22.98,
+                    "sell": 23.55
+                },
+                "ron": {
+                    "buy": 3.82,
+                    "sell": 3.99
+                },
+                "chf": {
+                    "buy": 21.63,
+                    "sell": 22.25
+                }
+            }
+        },
+        "comert": {
+            "name": "Comerțbank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.95,
+                    "sell": 20.15
+                },
+                "usd": {
+                    "buy": 16.75,
+                    "sell": 16.95
+                },
+                "ron": {
+                    "buy": 3.85,
+                    "sell": 3.95
+                }
+            }
+        },
+        "energ": {
+            "name": "Energbank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 20.0,
+                    "sell": 20.22
+                },
+                "usd": {
+                    "buy": 16.72,
+                    "sell": 16.97
+                },
+                "gbp": {
+                    "buy": 22.0,
+                    "sell": 23.3
+                },
+                "ron": {
+                    "buy": 3.85,
+                    "sell": 3.95
+                },
+                "chf": {
+                    "buy": 20.0,
+                    "sell": 22.0
+                }
+            }
+        },
+        "ecb": {
+            "name": "EuroCreditBank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.9,
+                    "sell": 20.17
+                },
+                "usd": {
+                    "buy": 16.76,
+                    "sell": 17.04
+                },
+                "gbp": {
+                    "buy": 22.84,
+                    "sell": 23.24
+                },
+                "ron": {
+                    "buy": 3.86,
+                    "sell": 3.96
+                },
+                "chf": {
+                    "buy": 21.46,
+                    "sell": 21.96
+                }
+            }
+        },
+        "procredit": {
+            "name": "ProCredit Bank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.9,
+                    "sell": 20.22
+                },
+                "usd": {
+                    "buy": 16.74,
+                    "sell": 17.15
+                }
+            }
+        }
     }
 }
