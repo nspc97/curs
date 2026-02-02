@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /assets/
 Disallow: /rates.json
 
 Sitemap: https://curs-valutar.netlify.app/sitemap.xml
