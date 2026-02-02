@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Tags -->
+    <title>Curs Valutar Moldova - Calculator Online (MDL, EUR, USD)</title>
+    <meta name="description" content="Calculator valutar online gratuit. Vezi cursurile actuale pentru MDL, Euro, Dolar și alte valute. Simplu și rapid.">
+    <meta name="keywords" content="curs valutar, convertor valutar, bnm, mdl, euro, dolar, schimb valutar moldova, calculator valuta">
+    <meta name="author" content="Nicolae Staci">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Meta Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://curs-mdl-example.com/">
+    <meta property="og:title" content="Curs Valutar Moldova - Calculator Online">
+    <meta property="og:description" content="Convertește rapid MDL, USD, EUR și alte valute la cursul actual.">
+    <meta property="og:image" content="assets/preview-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google AdSense Placeholder -->
+    <!-- Adăugați scriptul AdSense aici mai târziu -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+    <header>
+        <h1>💵 Curs Valutar Moldova</h1>
+        <p>Calculator rapid și simplu pentru toate valutele</p>
+    </header>
+
+    <main class="container">
+        
+        <!-- Ad Unit Top -->
+        <div class="ad-container">
+            <div class="ad-placeholder">
+                Advertising Space (Google Ads)
+            </div>
+        </div>
+
+        <div class="converter-card">
+            <div class="input-group">
+                <label for="amount">Sumă</label>
+                <input type="number" id="amount" value="100" placeholder="0.00">
+            </div>
+
+            <div class="currency-row">
+                <div class="currency-select">
+                    <label for="from-currency">Din</label>
+                    <select id="from-currency">
+                        <option value="mdl">MDL - Leu Moldovenesc</option>
+                        <option value="eur" selected>EUR - Euro</option>
+                        <option value="usd">USD - Dolar SUA</option>
+                        <option value="ron">RON - Leu Românesc</option>
+                        <option value="rub">RUB - Rubla Rusească</option>
+                        <option value="gbp">GBP - Lira Sterlină</option>
+                        <option value="uah">UAH - Hrivna Ucraineană</option>
+                    </select>
+                </div>
+
+                <button id="swap-btn" title="Schimbă valutele">
+                    ⇄
+                </button>
+
+                <div class="currency-select">
+                    <label for="to-currency">În</label>
+                    <select id="to-currency">
+                        <option value="mdl" selected>MDL - Leu Moldovenesc</option>
+                        <option value="eur">EUR - Euro</option>
+                        <option value="usd">USD - Dolar SUA</option>
+                        <option value="ron">RON - Leu Românesc</option>
+                        <option value="rub">RUB - Rubla Rusească</option>
+                        <option value="gbp">GBP - Lira Sterlină</option>
+                        <option value="uah">UAH - Hrivna Ucraineană</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="result-area">
+                <div class="result-label">Rezultat:</div>
+                <div class="result-value" id="result-value">Loading...</div>
+                <div class="exchange-rate-info" id="rate-info"></div>
+                <div class="update-time" id="last-updated">Actualizare...</div>
+            </div>
+        </div>
+
+        <!-- Ad Unit Bottom -->
+        <div class="ad-container">
+            <div class="ad-placeholder">
+                Advertising Space (Google Ads)
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Curs Valutar. Datele sunt aproximative și au scop informativ.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

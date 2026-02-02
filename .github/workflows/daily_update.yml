@@ -1,0 +1,37 @@
+name: Actualizare Zilnică Curs Valutar
+
+on:
+  schedule:
+    # Rulează în fiecare zi la ora 15:00 UTC (17:00 Moldova)
+    # BNM publică de obicei cursurile pentru ziua următoare după ora 16:00
+    - cron: '0 15 * * *'
+  workflow_dispatch: # Permite rularea manuală a update-ului din GitHub
+
+jobs:
+  update-rates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permite scrierea în repo (pentru a salva rates.json)
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run update script
+        run: python update_rates.py
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-update: Curs valutar BNM"
+          file_pattern: 'rates.json'
