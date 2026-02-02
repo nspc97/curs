@@ -589,11 +589,19 @@ footer {
 
 /* Language Switcher */
 .lang-switch {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
     display: flex;
     gap: 5px;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 769px) {
+    .lang-switch {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        margin-bottom: 0;
+    }
 }
 
 .lang-btn {
