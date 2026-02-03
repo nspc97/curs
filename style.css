@@ -199,11 +199,16 @@ header h1 {
 
 /* Rates Table */
 #rates-table-container {
-    max-height: 400px; /* Limit height for scrolling */
-    overflow-y: auto; /* Enable vertical rolling */
     margin-top: 2rem;
     border: 1px solid #eee;
     border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#rates-table-container .table-responsive {
+    max-height: 400px; /* Limit height for scrolling */
+    overflow-y: auto; /* Enable vertical rolling */
 }
 
 .rates-table {
