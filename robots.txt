@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /rates.json
 
-Sitemap: https://curs-valutar.netlify.app/sitemap.xml
+Sitemap: https://cursinfo.md/sitemap.xml
