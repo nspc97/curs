@@ -55,7 +55,10 @@ def get_bnm_rates():
 
 def get_curs_md_rates(bank_slug, bank_display_name):
     """Fetches rates from curs.md for a specific bank"""
-    url = f"https://www.curs.md/ru/office/{bank_slug}"
+    # Use date-specific URL to avoid stale cache
+    today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    url = f"https://www.curs.md/ru/office/{bank_slug}/{today_str}"
+    
     print(f"Fetching {bank_display_name} rates from {url}...")
     try:
         response = requests.get(url, headers=HEADERS, timeout=10)
