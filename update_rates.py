@@ -422,6 +422,10 @@ def get_micb_rates():
             
             if not currency_code:
                 continue
+            
+            # If we already have this currency, skip (take the first occurrence, usually Cash)
+            if currency_code in rates:
+                continue
                 
             # Get Buy Value
             try:
