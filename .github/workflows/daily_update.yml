@@ -2,9 +2,9 @@ name: Actualizare Zilnică Curs Valutar
 
 on:
   schedule:
-    # Rulează în fiecare zi la ora 15:00 UTC (17:00 Moldova)
+    # Rulează în fiecare zi la ora 09:15, 10:15 și 17:15 UTC
     # BNM publică de obicei cursurile pentru ziua următoare după ora 16:00
-    - cron: '0 15 * * *'
+    - cron: '15 9,10,17 * * *'
   workflow_dispatch: # Permite rularea manuală a update-ului din GitHub
 
 jobs:
