@@ -1,6 +1,6 @@
 {
     "date": "27.02.2026",
-    "timestamp": 1772186359987,
+    "timestamp": 1772189917778,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -124,6 +124,28 @@
                 "gbp": {
                     "buy": 22.95,
                     "sell": 23.25
+                }
+            }
+        },
+        "fincom": {
+            "name": "FinComBank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 20.17,
+                    "sell": 20.33
+                },
+                "usd": {
+                    "buy": 17.05,
+                    "sell": 17.23
+                },
+                "gbp": {
+                    "buy": 22.97,
+                    "sell": 23.26
+                },
+                "ron": {
+                    "buy": 3.88,
+                    "sell": 3.97
                 }
             }
         },
