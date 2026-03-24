@@ -1,6 +1,6 @@
 {
     "date": "24.03.2026",
-    "timestamp": 1774350572608,
+    "timestamp": 1774375645224,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -47,32 +47,6 @@
                 "try": 0.3932,
                 "uzs": 0.0014349999999999999,
                 "xdr": 23.7617
-            }
-        },
-        "micb": {
-            "name": "Moldindconbank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 20.13,
-                    "sell": 20.37
-                },
-                "usd": {
-                    "buy": 17.33,
-                    "sell": 17.62
-                },
-                "gbp": {
-                    "buy": 23.0,
-                    "sell": 23.5
-                },
-                "ron": {
-                    "buy": 3.86,
-                    "sell": 4.0
-                },
-                "chf": {
-                    "buy": 21.8,
-                    "sell": 22.3
-                }
             }
         },
         "otp": {
