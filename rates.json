@@ -1,6 +1,6 @@
 {
     "date": "01.04.2026",
-    "timestamp": 1775038539823,
+    "timestamp": 1775066574183,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -228,7 +228,7 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.23,
+                    "buy": 20.25,
                     "sell": 20.39
                 },
                 "usd": {
@@ -284,8 +284,8 @@
                     "sell": 20.44
                 },
                 "usd": {
-                    "buy": 17.45,
-                    "sell": 17.74
+                    "buy": 17.35,
+                    "sell": 17.72
                 }
             }
         }
