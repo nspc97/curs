@@ -1,6 +1,6 @@
 {
-    "date": "03.04.2026",
-    "timestamp": 1775238738627,
+    "date": "04.04.2026",
+    "timestamp": 1775296501299,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -54,12 +54,12 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.16,
-                    "sell": 20.41
+                    "buy": 20.15,
+                    "sell": 20.4
                 },
                 "usd": {
-                    "buy": 17.46,
-                    "sell": 17.74
+                    "buy": 17.4,
+                    "sell": 17.73
                 },
                 "gbp": {
                     "buy": 22.9,
@@ -80,50 +80,28 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.19,
-                    "sell": 20.42
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "usd": {
-                    "buy": 17.42,
-                    "sell": 17.74
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "gbp": {
-                    "buy": 23.08,
-                    "sell": 23.8
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "ron": {
                     "buy": 0.0,
                     "sell": 0.0
                 },
                 "uah": {
-                    "buy": 0.35,
-                    "sell": 0.41
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "rub": {
                     "buy": 0.0,
                     "sell": 0.0
-                }
-            }
-        },
-        "exim": {
-            "name": "Eximbank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 20.16,
-                    "sell": 20.36
-                },
-                "usd": {
-                    "buy": 17.45,
-                    "sell": 17.7
-                },
-                "gbp": {
-                    "buy": 22.95,
-                    "sell": 23.35
-                },
-                "ron": {
-                    "buy": 3.9,
-                    "sell": 4.0
                 }
             }
         },
@@ -184,24 +162,24 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.15,
-                    "sell": 20.42
+                    "buy": 20.12,
+                    "sell": 20.4
                 },
                 "usd": {
                     "buy": 17.4,
-                    "sell": 17.74
+                    "sell": 17.72
                 },
                 "gbp": {
-                    "buy": 23.07,
+                    "buy": 23.0,
                     "sell": 23.53
                 },
                 "ron": {
                     "buy": 3.9,
-                    "sell": 4.02
+                    "sell": 4.0
                 },
                 "chf": {
-                    "buy": 21.72,
-                    "sell": 22.32
+                    "buy": 21.68,
+                    "sell": 22.35
                 }
             }
         },
