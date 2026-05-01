@@ -1,6 +1,6 @@
 {
-    "date": "30.04.2026",
-    "timestamp": 1777574678014,
+    "date": "01.05.2026",
+    "timestamp": 1777632172657,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -53,25 +53,13 @@
             "name": "Moldindconbank",
             "type": "commercial",
             "rates": {
-                "eur": {
-                    "buy": 20.06,
-                    "sell": 20.3
-                },
                 "usd": {
-                    "buy": 17.15,
-                    "sell": 17.42
+                    "buy": 17.1,
+                    "sell": 17.6
                 },
-                "gbp": {
-                    "buy": 23.0,
-                    "sell": 23.5
-                },
-                "ron": {
-                    "buy": 3.88,
-                    "sell": 4.0
-                },
-                "chf": {
-                    "buy": 21.6,
-                    "sell": 22.1
+                "eur": {
+                    "buy": 20.0,
+                    "sell": 20.5
                 }
             }
         },
@@ -80,50 +68,28 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.09,
-                    "sell": 20.31
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "usd": {
-                    "buy": 17.18,
-                    "sell": 17.44
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "gbp": {
-                    "buy": 23.06,
-                    "sell": 23.7
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "ron": {
                     "buy": 0.0,
                     "sell": 0.0
                 },
                 "uah": {
-                    "buy": 0.34,
-                    "sell": 0.4
+                    "buy": 0.0,
+                    "sell": 0.0
                 },
                 "rub": {
                     "buy": 0.0,
                     "sell": 0.0
-                }
-            }
-        },
-        "exim": {
-            "name": "Eximbank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 20.1,
-                    "sell": 20.25
-                },
-                "usd": {
-                    "buy": 17.18,
-                    "sell": 17.36
-                },
-                "gbp": {
-                    "buy": 23.0,
-                    "sell": 23.4
-                },
-                "ron": {
-                    "buy": 3.89,
-                    "sell": 3.99
                 }
             }
         },
@@ -185,23 +151,23 @@
             "rates": {
                 "eur": {
                     "buy": 20.1,
-                    "sell": 20.31
+                    "sell": 20.3
                 },
                 "usd": {
-                    "buy": 17.1,
-                    "sell": 17.44
+                    "buy": 17.18,
+                    "sell": 17.39
                 },
                 "gbp": {
                     "buy": 23.1,
-                    "sell": 23.57
+                    "sell": 23.59
                 },
                 "ron": {
-                    "buy": 3.87,
-                    "sell": 4.0
+                    "buy": 3.82,
+                    "sell": 3.97
                 },
                 "chf": {
                     "buy": 21.7,
-                    "sell": 22.15
+                    "sell": 22.25
                 }
             }
         },
