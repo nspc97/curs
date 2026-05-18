@@ -1,6 +1,6 @@
 {
     "date": "18.05.2026",
-    "timestamp": 1779108425076,
+    "timestamp": 1779130965048,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -272,20 +272,6 @@
                 "chf": {
                     "buy": 21.58,
                     "sell": 22.06
-                }
-            }
-        },
-        "procredit": {
-            "name": "ProCredit Bank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 20.02,
-                    "sell": 20.27
-                },
-                "usd": {
-                    "buy": 17.19,
-                    "sell": 17.46
                 }
             }
         }
