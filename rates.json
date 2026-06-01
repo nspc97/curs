@@ -1,6 +1,6 @@
 {
-    "date": "31.05.2026",
-    "timestamp": 1780251407040,
+    "date": "01.06.2026",
+    "timestamp": 1780327945242,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -53,25 +53,13 @@
             "name": "Moldindconbank",
             "type": "commercial",
             "rates": {
-                "eur": {
-                    "buy": 20.0,
-                    "sell": 20.26
-                },
                 "usd": {
-                    "buy": 17.15,
-                    "sell": 17.43
+                    "buy": 17.1,
+                    "sell": 17.6
                 },
-                "gbp": {
-                    "buy": 22.9,
-                    "sell": 23.4
-                },
-                "ron": {
-                    "buy": 3.76,
-                    "sell": 3.93
-                },
-                "chf": {
-                    "buy": 21.7,
-                    "sell": 22.2
+                "eur": {
+                    "buy": 19.95,
+                    "sell": 20.45
                 }
             }
         },
