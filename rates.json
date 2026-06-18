@@ -1,6 +1,6 @@
 {
-    "date": "17.06.2026",
-    "timestamp": 1781724562875,
+    "date": "18.06.2026",
+    "timestamp": 1781785887953,
     "sources": {
         "micb": {
             "name": "Moldindconbank",
@@ -8,15 +8,15 @@
             "rates": {
                 "eur": {
                     "buy": 20.14,
-                    "sell": 20.35
+                    "sell": 20.32
                 },
                 "usd": {
-                    "buy": 17.34,
-                    "sell": 17.55
+                    "buy": 17.4,
+                    "sell": 17.63
                 },
                 "gbp": {
                     "buy": 23.0,
-                    "sell": 23.6
+                    "sell": 23.5
                 },
                 "ron": {
                     "buy": 3.76,
@@ -24,7 +24,7 @@
                 },
                 "chf": {
                     "buy": 21.6,
-                    "sell": 22.2
+                    "sell": 22.1
                 }
             }
         },
@@ -33,15 +33,15 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.16,
-                    "sell": 20.37
+                    "buy": 20.17,
+                    "sell": 20.35
                 },
                 "usd": {
-                    "buy": 17.35,
-                    "sell": 17.55
+                    "buy": 17.46,
+                    "sell": 17.66
                 },
                 "gbp": {
-                    "buy": 23.21,
+                    "buy": 23.19,
                     "sell": 23.8
                 },
                 "ron": {
@@ -63,20 +63,20 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.16,
-                    "sell": 20.32
+                    "buy": 20.15,
+                    "sell": 20.28
                 },
                 "usd": {
-                    "buy": 17.32,
-                    "sell": 17.52
+                    "buy": 17.4,
+                    "sell": 17.58
                 },
                 "gbp": {
-                    "buy": 23.15,
-                    "sell": 23.5
+                    "buy": 23.1,
+                    "sell": 23.45
                 },
                 "ron": {
-                    "buy": 3.79,
-                    "sell": 3.89
+                    "buy": 3.8,
+                    "sell": 3.9
                 }
             }
         },
@@ -86,15 +86,15 @@
             "rates": {
                 "eur": {
                     "buy": 20.15,
-                    "sell": 20.33
+                    "sell": 20.31
                 },
                 "usd": {
-                    "buy": 17.34,
-                    "sell": 17.53
+                    "buy": 17.42,
+                    "sell": 17.6
                 },
                 "gbp": {
-                    "buy": 23.2,
-                    "sell": 23.5
+                    "buy": 23.16,
+                    "sell": 23.45
                 },
                 "ron": {
                     "buy": 3.8,
@@ -108,27 +108,27 @@
             "rates": {
                 "eur": {
                     "buy": 20.1,
-                    "sell": 20.35
+                    "sell": 20.32
                 },
                 "usd": {
-                    "buy": 17.28,
-                    "sell": 17.55
+                    "buy": 17.38,
+                    "sell": 17.63
                 },
                 "gbp": {
-                    "buy": 23.2,
-                    "sell": 23.55
+                    "buy": 23.18,
+                    "sell": 23.5
                 },
                 "ron": {
                     "buy": 3.78,
                     "sell": 3.9
                 },
                 "uah": {
-                    "buy": 0.34,
-                    "sell": 0.4
+                    "buy": 0.33,
+                    "sell": 0.39
                 },
                 "chf": {
-                    "buy": 21.7,
-                    "sell": 22.15
+                    "buy": 21.65,
+                    "sell": 22.1
                 }
             }
         },
@@ -137,24 +137,24 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.16,
-                    "sell": 20.34
+                    "buy": 20.19,
+                    "sell": 20.35
                 },
                 "usd": {
-                    "buy": 17.3,
-                    "sell": 17.55
+                    "buy": 17.4,
+                    "sell": 17.66
                 },
                 "gbp": {
-                    "buy": 23.22,
-                    "sell": 23.65
+                    "buy": 23.21,
+                    "sell": 23.64
                 },
                 "ron": {
                     "buy": 3.8,
-                    "sell": 3.92
+                    "sell": 3.91
                 },
                 "chf": {
-                    "buy": 21.72,
-                    "sell": 22.25
+                    "buy": 21.75,
+                    "sell": 22.28
                 }
             }
         },
@@ -163,12 +163,12 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.15,
+                    "buy": 20.19,
                     "sell": 20.3
                 },
                 "usd": {
-                    "buy": 17.3,
-                    "sell": 17.55
+                    "buy": 17.38,
+                    "sell": 17.6
                 },
                 "ron": {
                     "buy": 3.8,
@@ -181,20 +181,20 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.18,
-                    "sell": 20.33
+                    "buy": 20.17,
+                    "sell": 20.3
                 },
                 "usd": {
-                    "buy": 17.36,
-                    "sell": 17.51
+                    "buy": 17.45,
+                    "sell": 17.61
                 },
                 "gbp": {
                     "buy": 22.5,
                     "sell": 23.5
                 },
                 "ron": {
-                    "buy": 3.79,
-                    "sell": 3.88
+                    "buy": 3.78,
+                    "sell": 3.87
                 },
                 "chf": {
                     "buy": 21.0,
@@ -208,23 +208,23 @@
             "rates": {
                 "eur": {
                     "buy": 20.12,
-                    "sell": 20.32
+                    "sell": 20.29
                 },
                 "usd": {
-                    "buy": 17.3,
-                    "sell": 17.54
+                    "buy": 17.42,
+                    "sell": 17.6
                 },
                 "gbp": {
                     "buy": 23.1,
-                    "sell": 23.5
+                    "sell": 23.45
                 },
                 "ron": {
                     "buy": 3.78,
                     "sell": 3.88
                 },
                 "chf": {
-                    "buy": 21.55,
-                    "sell": 21.95
+                    "buy": 21.48,
+                    "sell": 21.98
                 }
             }
         }
