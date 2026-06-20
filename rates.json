@@ -1,13 +1,13 @@
 {
-    "date": "19.06.2026",
-    "timestamp": 1781896144498,
+    "date": "20.06.2026",
+    "timestamp": 1781954705381,
     "sources": {
         "micb": {
             "name": "Moldindconbank",
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.1,
+                    "buy": 20.12,
                     "sell": 20.3
                 },
                 "usd": {
@@ -55,28 +55,6 @@
                 "rub": {
                     "buy": 0.0,
                     "sell": 0.0
-                }
-            }
-        },
-        "exim": {
-            "name": "Eximbank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 20.13,
-                    "sell": 20.27
-                },
-                "usd": {
-                    "buy": 17.56,
-                    "sell": 17.73
-                },
-                "gbp": {
-                    "buy": 23.05,
-                    "sell": 23.35
-                },
-                "ron": {
-                    "buy": 3.79,
-                    "sell": 3.89
                 }
             }
         },
@@ -138,23 +116,23 @@
             "rates": {
                 "eur": {
                     "buy": 20.12,
-                    "sell": 20.36
+                    "sell": 20.3
                 },
                 "usd": {
-                    "buy": 17.5,
-                    "sell": 17.84
+                    "buy": 17.53,
+                    "sell": 17.74
                 },
                 "gbp": {
-                    "buy": 23.16,
-                    "sell": 23.65
+                    "buy": 23.18,
+                    "sell": 23.55
                 },
                 "ron": {
-                    "buy": 3.78,
-                    "sell": 3.91
+                    "buy": 3.8,
+                    "sell": 3.9
                 },
                 "chf": {
-                    "buy": 21.64,
-                    "sell": 22.25
+                    "buy": 21.6,
+                    "sell": 22.2
                 }
             }
         },
