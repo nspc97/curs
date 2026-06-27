@@ -1,6 +1,6 @@
 {
-    "date": "26.06.2026",
-    "timestamp": 1782500568762,
+    "date": "27.06.2026",
+    "timestamp": 1782558215518,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -58,8 +58,8 @@
                     "sell": 20.28
                 },
                 "usd": {
-                    "buy": 17.6,
-                    "sell": 17.84
+                    "buy": 17.55,
+                    "sell": 17.8
                 },
                 "gbp": {
                     "buy": 23.0,
@@ -102,28 +102,6 @@
                 "rub": {
                     "buy": 0.0,
                     "sell": 0.0
-                }
-            }
-        },
-        "exim": {
-            "name": "Eximbank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 20.1,
-                    "sell": 20.25
-                },
-                "usd": {
-                    "buy": 17.62,
-                    "sell": 17.8
-                },
-                "gbp": {
-                    "buy": 23.15,
-                    "sell": 23.5
-                },
-                "ron": {
-                    "buy": 3.78,
-                    "sell": 3.88
                 }
             }
         },
@@ -185,15 +163,15 @@
             "rates": {
                 "eur": {
                     "buy": 20.11,
-                    "sell": 20.29
+                    "sell": 20.3
                 },
                 "usd": {
-                    "buy": 17.57,
-                    "sell": 17.86
+                    "buy": 17.53,
+                    "sell": 17.83
                 },
                 "gbp": {
-                    "buy": 23.26,
-                    "sell": 23.67
+                    "buy": 23.2,
+                    "sell": 23.65
                 },
                 "ron": {
                     "buy": 3.78,
