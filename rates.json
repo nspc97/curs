@@ -1,6 +1,6 @@
 {
     "date": "27.06.2026",
-    "timestamp": 1782558215518,
+    "timestamp": 1782584271570,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -192,8 +192,8 @@
                     "sell": 20.2
                 },
                 "usd": {
-                    "buy": 17.6,
-                    "sell": 17.8
+                    "buy": 17.55,
+                    "sell": 17.75
                 },
                 "ron": {
                     "buy": 3.78,
