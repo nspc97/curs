@@ -1,6 +1,6 @@
 {
     "date": "20.07.2026",
-    "timestamp": 1784548660128,
+    "timestamp": 1784574349042,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -242,6 +242,32 @@
                 "chf": {
                     "buy": 21.0,
                     "sell": 22.0
+                }
+            }
+        },
+        "ecb": {
+            "name": "EuroCreditBank",
+            "type": "commercial",
+            "rates": {
+                "eur": {
+                    "buy": 19.98,
+                    "sell": 20.14
+                },
+                "usd": {
+                    "buy": 17.45,
+                    "sell": 17.65
+                },
+                "gbp": {
+                    "buy": 23.3,
+                    "sell": 23.64
+                },
+                "ron": {
+                    "buy": 3.75,
+                    "sell": 3.85
+                },
+                "chf": {
+                    "buy": 21.4,
+                    "sell": 21.78
                 }
             }
         }
