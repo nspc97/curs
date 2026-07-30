@@ -1,6 +1,6 @@
 {
     "date": "30.07.2026",
-    "timestamp": 1785410403230,
+    "timestamp": 1785437081639,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -98,6 +98,10 @@
                 "uah": {
                     "buy": 0.33,
                     "sell": 0.39
+                },
+                "rub": {
+                    "buy": 0.0,
+                    "sell": 0.0
                 }
             }
         },
