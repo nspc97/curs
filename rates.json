@@ -1,6 +1,6 @@
 {
-    "date": "14.08.2026",
-    "timestamp": 1786730731596,
+    "date": "15.08.2026",
+    "timestamp": 1786786815857,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -79,43 +79,21 @@
                 }
             }
         },
-        "exim": {
-            "name": "Eximbank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 19.93,
-                    "sell": 20.05
-                },
-                "usd": {
-                    "buy": 17.25,
-                    "sell": 17.4
-                },
-                "gbp": {
-                    "buy": 23.15,
-                    "sell": 23.45
-                },
-                "ron": {
-                    "buy": 3.75,
-                    "sell": 3.85
-                }
-            }
-        },
         "fincom": {
             "name": "FinComBank",
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 19.9,
-                    "sell": 20.04
+                    "buy": 19.92,
+                    "sell": 20.06
                 },
                 "usd": {
-                    "buy": 17.24,
+                    "buy": 17.22,
                     "sell": 17.38
                 },
                 "gbp": {
                     "buy": 23.15,
-                    "sell": 23.5
+                    "sell": 23.55
                 },
                 "ron": {
                     "buy": 3.74,
@@ -163,19 +141,19 @@
                 },
                 "usd": {
                     "buy": 17.22,
-                    "sell": 17.45
+                    "sell": 17.43
                 },
                 "gbp": {
                     "buy": 23.26,
-                    "sell": 23.64
+                    "sell": 23.62
                 },
                 "ron": {
                     "buy": 3.76,
                     "sell": 3.87
                 },
                 "chf": {
-                    "buy": 21.15,
-                    "sell": 21.55
+                    "buy": 21.12,
+                    "sell": 21.54
                 }
             }
         },
