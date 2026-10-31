@@ -1,6 +1,6 @@
 {
-    "date": "30.10.2026",
-    "timestamp": 1793395780859,
+    "date": "31.10.2026",
+    "timestamp": 1793459922688,
     "sources": {
         "bnm": {
             "name": "Banca Națională (BNM)",
@@ -79,43 +79,21 @@
                 }
             }
         },
-        "exim": {
-            "name": "Eximbank",
-            "type": "commercial",
-            "rates": {
-                "eur": {
-                    "buy": 20.09,
-                    "sell": 20.24
-                },
-                "usd": {
-                    "buy": 17.95,
-                    "sell": 18.13
-                },
-                "gbp": {
-                    "buy": 23.9,
-                    "sell": 24.2
-                },
-                "ron": {
-                    "buy": 3.7,
-                    "sell": 3.8
-                }
-            }
-        },
         "fincom": {
             "name": "FinComBank",
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.08,
-                    "sell": 20.24
+                    "buy": 20.1,
+                    "sell": 20.27
                 },
                 "usd": {
-                    "buy": 17.92,
-                    "sell": 18.1
+                    "buy": 17.94,
+                    "sell": 18.16
                 },
                 "gbp": {
-                    "buy": 23.87,
-                    "sell": 24.3
+                    "buy": 23.85,
+                    "sell": 24.35
                 },
                 "ron": {
                     "buy": 3.68,
@@ -158,24 +136,24 @@
             "type": "commercial",
             "rates": {
                 "eur": {
-                    "buy": 20.1,
+                    "buy": 20.05,
                     "sell": 20.28
                 },
                 "usd": {
-                    "buy": 17.85,
-                    "sell": 18.19
+                    "buy": 17.95,
+                    "sell": 18.23
                 },
                 "gbp": {
-                    "buy": 23.93,
-                    "sell": 24.38
+                    "buy": 23.95,
+                    "sell": 24.48
                 },
                 "ron": {
-                    "buy": 3.72,
-                    "sell": 3.85
+                    "buy": 3.73,
+                    "sell": 3.84
                 },
                 "chf": {
-                    "buy": 21.67,
-                    "sell": 22.18
+                    "buy": 21.68,
+                    "sell": 22.25
                 }
             }
         },
